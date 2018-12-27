@@ -1,4 +1,0 @@
-/root/kvfs/CMakeFiles/rebuild_cache.dir
-/root/kvfs/CMakeFiles/edit_cache.dir
-/root/kvfs/CMakeFiles/fs_main.dir
-/root/kvfs/CMakeFiles/test.dir

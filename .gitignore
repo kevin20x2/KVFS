@@ -1,6 +1,8 @@
 
 *.cmake
 
+.ycm_extra_conf.py
+
 CMakeCache.txt
 
 Makefile
@@ -9,7 +11,11 @@ fs_main
 
 test
 
-CMakeFiles/*
+testdir/metadir/*
+testdir/datadir/*
+testdir/mountdir/*
+
+/CMakeFiles
 
 # Prerequisites
 *.d
