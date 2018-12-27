@@ -1,0 +1,1 @@
+/usr/bin/c++   -D_FILE_OFFSET_BITS=64   CMakeFiles/test.dir/test.cpp.o  -o test  -L/root/rocksdb 

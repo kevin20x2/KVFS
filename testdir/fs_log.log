@@ -1,0 +1,698 @@
+[/root/kvfs/fs/config.cpp : 28]- KVFSConfig : Init config .. 
+ 
+[/root/kvfs/fs/config.cpp : 42]- realpath of metadir : /root/kvfs/testdir/metadir
+[/root/kvfs/fs/config.cpp : 52]- realpath of datadir : /root/kvfs/testdir/datadir
+[/root/kvfs/fs/config.cpp : 62]- realpath of mount_dir : /root/kvfs/testdir/mountdir
+[/root/kvfs/fs/config.cpp : 81]- cant find config file ..create a new one..
+[/root/kvfs/fs/kvfs.cpp : 76]- init config..
+[/root/kvfs/fs/kvfs.cpp : 78]- init rocksdb adaptor ..
+[/root/kvfs/fs/adaptor.cpp : 44]- RocksDBAdaptor : use path /root/kvfs/testdir/metadir
+[/root/kvfs/fs/adaptor.cpp : 46]- OK
+[/root/kvfs/fs/kvfs.cpp : 126]- kvfs init .. 
+[/root/kvfs/fs/kvfs.cpp : 129]- use fuse .. true
+[/root/kvfs/fs/kvfs.cpp : 140]- file system is empty .. 
+ create root inode .. 
+[/root/kvfs/fs/kvfs.cpp : 88]- NewDir : Create new dir : /
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 668]- MakeNode : /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 676]- parent_path : / 
+[/root/kvfs/fs/kvfs.cpp : 695]- MakeNode :Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/Makefile]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [0] mtime[0] ctime[1545729809]
+[/root/kvfs/fs/kvfs.cpp : 341]- Open : /Makefile ,Flags: 32769
+[/root/kvfs/fs/kvfs.cpp : 344]- parentDir : / 
+[/root/kvfs/fs/kvfs.cpp : 472]- Write : /Makefile 0 4096
+[/root/kvfs/fs/kvfs.cpp : 481]- Write :  /Makefile has_lager_size : 1 
+[/root/kvfs/fs/kvfs.cpp : 532]- Write : from SmallFile to SmallFile
+[/root/kvfs/fs/kvfs.cpp : 554]- Write: OK
+[/root/kvfs/fs/kvfs.cpp : 472]- Write : /Makefile 4096 4096
+[/root/kvfs/fs/kvfs.cpp : 481]- Write :  /Makefile has_lager_size : 1 
+[/root/kvfs/fs/kvfs.cpp : 496]- Write :from small file to BigFile
+[/root/kvfs/fs/kvfs.cpp : 472]- Write : /Makefile 8192 1310
+[/root/kvfs/fs/kvfs.cpp : 481]- Write :  /Makefile has_lager_size : 1 
+[/root/kvfs/fs/kvfs.cpp : 489]- Write: OK
+[/root/kvfs/fs/kvfs.cpp : 606]- Relaease : path /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/Makefile]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[9502]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [0] mtime[0] ctime[1545729809]
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/Makefile]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[9502]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [0] mtime[0] ctime[1545729809]
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 341]- Open : /Makefile ,Flags: 32768
+[/root/kvfs/fs/kvfs.cpp : 344]- parentDir : / 
+[/root/kvfs/fs/kvfs.cpp : 432]- Read: /Makefile size : 12288 , offset 0 
+[/root/kvfs/fs/kvfs.cpp : 439]- Read : BigFile  /Makefile
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/Makefile]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[9502]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [0] mtime[0] ctime[1545729809]
+[/root/kvfs/fs/kvfs.cpp : 606]- Relaease : path /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.test.txt.swp 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.test.txt.swp 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 668]- MakeNode : /.test.txt.swp 
+[/root/kvfs/fs/kvfs.cpp : 676]- parent_path : / 
+[/root/kvfs/fs/kvfs.cpp : 695]- MakeNode :Hash_id -6307916611279091296, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.test.txt.swp 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/.test.txt.swp]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33152] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [45756432] mtime[-1442794480] ctime[1545729828]
+[/root/kvfs/fs/kvfs.cpp : 341]- Open : /.test.txt.swp ,Flags: 32770
+[/root/kvfs/fs/kvfs.cpp : 344]- parentDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.test.txt.swx 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.test.txt.swx 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 668]- MakeNode : /.test.txt.swx 
+[/root/kvfs/fs/kvfs.cpp : 676]- parent_path : / 
+[/root/kvfs/fs/kvfs.cpp : 695]- MakeNode :Hash_id -5348066711320000111, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.test.txt.swx 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/.test.txt.swx]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33152] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [45756432] mtime[-1442794480] ctime[1545729828]
+[/root/kvfs/fs/kvfs.cpp : 341]- Open : /.test.txt.swx ,Flags: 32770
+[/root/kvfs/fs/kvfs.cpp : 344]- parentDir : / 
+[/root/kvfs/fs/kvfs.cpp : 606]- Relaease : path /.test.txt.swx 
+[/root/kvfs/fs/kvfs.cpp : 624]- unlink : /.test.txt.swx 
+[/root/kvfs/fs/kvfs.cpp : 606]- Relaease : path /.test.txt.swp 
+[/root/kvfs/fs/kvfs.cpp : 624]- unlink : /.test.txt.swp 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.test.txt.swp 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.test.txt.swp 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.test.txt.swp 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.test.txt.swp 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 668]- MakeNode : /.test.txt.swp 
+[/root/kvfs/fs/kvfs.cpp : 676]- parent_path : / 
+[/root/kvfs/fs/kvfs.cpp : 695]- MakeNode :Hash_id -6307916611279091296, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.test.txt.swp 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/.test.txt.swp]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33152] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [45756432] mtime[-1442794480] ctime[1545729828]
+[/root/kvfs/fs/kvfs.cpp : 341]- Open : /.test.txt.swp ,Flags: 163842
+[/root/kvfs/fs/kvfs.cpp : 344]- parentDir : / 
+[/root/kvfs/fs/kvfs.cpp : 472]- Write : /.test.txt.swp 0 4096
+[/root/kvfs/fs/kvfs.cpp : 481]- Write :  /.test.txt.swp has_lager_size : 1 
+[/root/kvfs/fs/kvfs.cpp : 532]- Write : from SmallFile to SmallFile
+[/root/kvfs/fs/kvfs.cpp : 554]- Write: OK
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /_vim_path_ 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /_vim_path_ 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 472]- Write : /.test.txt.swp 0 4096
+[/root/kvfs/fs/kvfs.cpp : 481]- Write :  /.test.txt.swp has_lager_size : 0 
+[/root/kvfs/fs/kvfs.cpp : 532]- Write : from SmallFile to SmallFile
+[/root/kvfs/fs/kvfs.cpp : 554]- Write: OK
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 668]- MakeNode : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 676]- parent_path : / 
+[/root/kvfs/fs/kvfs.cpp : 695]- MakeNode :Hash_id -7699684980409737984, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/test.txt]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [45993040] mtime[-1442794480] ctime[1545729834]
+[/root/kvfs/fs/kvfs.cpp : 341]- Open : /test.txt ,Flags: 32769
+[/root/kvfs/fs/kvfs.cpp : 344]- parentDir : / 
+[/root/kvfs/fs/kvfs.cpp : 472]- Write : /test.txt 0 8
+[/root/kvfs/fs/kvfs.cpp : 481]- Write :  /test.txt has_lager_size : 1 
+[/root/kvfs/fs/kvfs.cpp : 532]- Write : from SmallFile to SmallFile
+[/root/kvfs/fs/kvfs.cpp : 554]- Write: OK
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/test.txt]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[8]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [45993040] mtime[-1442794480] ctime[1545729834]
+[/root/kvfs/fs/kvfs.cpp : 606]- Relaease : path /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 472]- Write : /.test.txt.swp 0 4096
+[/root/kvfs/fs/kvfs.cpp : 481]- Write :  /.test.txt.swp has_lager_size : 0 
+[/root/kvfs/fs/kvfs.cpp : 532]- Write : from SmallFile to SmallFile
+[/root/kvfs/fs/kvfs.cpp : 554]- Write: OK
+[/root/kvfs/fs/kvfs.cpp : 341]- Open : /test.txt ,Flags: 34816
+[/root/kvfs/fs/kvfs.cpp : 344]- parentDir : / 
+[/root/kvfs/fs/kvfs.cpp : 606]- Relaease : path /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 341]- Open : /test.txt ,Flags: 34816
+[/root/kvfs/fs/kvfs.cpp : 344]- parentDir : / 
+[/root/kvfs/fs/kvfs.cpp : 606]- Relaease : path /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 606]- Relaease : path /.test.txt.swp 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.test.txt.swp 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/.test.txt.swp]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33152] , uid[0] , gid[0] , size[4096]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [45756432] mtime[-1442794480] ctime[1545729828]
+[/root/kvfs/fs/kvfs.cpp : 624]- unlink : /.test.txt.swp 
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -7699684980409737984, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : test.txt
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/Makefile]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[9502]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [0] mtime[0] ctime[1545729809]
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -7699684980409737984, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : test.txt
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -7699684980409737984, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : test.txt
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -7699684980409737984, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : test.txt
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/test.txt]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[8]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [45993040] mtime[-1442794480] ctime[1545729834]
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -7699684980409737984, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : test.txt
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 341]- Open : /test.txt ,Flags: 32768
+[/root/kvfs/fs/kvfs.cpp : 344]- parentDir : / 
+[/root/kvfs/fs/kvfs.cpp : 432]- Read: /test.txt size : 4096 , offset 0 
+[/root/kvfs/fs/kvfs.cpp : 444]- Read : SmallFile /test.txt
+[/root/kvfs/fs/kvfs.cpp : 410]- Inline Data :path_name_len 9
+[/root/kvfs/fs/kvfs.cpp : 411]- value_size : 8 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/test.txt]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[8]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [45993040] mtime[-1442794480] ctime[1545729834]
+[/root/kvfs/fs/kvfs.cpp : 606]- Relaease : path /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -7699684980409737984, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : test.txt
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -7699684980409737984, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : test.txt
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -7699684980409737984, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : test.txt
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -7699684980409737984, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : test.txt
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /fs 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -7699684980409737984, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : test.txt
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/test.txt]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[8]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [45993040] mtime[-1442794480] ctime[1545729834]
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/Makefile]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[9502]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [0] mtime[0] ctime[1545729809]
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 872]- Access : / 1
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -7699684980409737984, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : test.txt
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/test.txt]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[8]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [45993040] mtime[-1442794480] ctime[1545729834]
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/Makefile]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[9502]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [0] mtime[0] ctime[1545729809]
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.git 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.git 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -7699684980409737984, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : test.txt
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/test.txt]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[8]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [45993040] mtime[-1442794480] ctime[1545729834]
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.gitignore 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/Makefile]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[9502]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [0] mtime[0] ctime[1545729809]
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 341]- Open : /Makefile ,Flags: 32768
+[/root/kvfs/fs/kvfs.cpp : 344]- parentDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.gitattributes 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 432]- Read: /Makefile size : 12288 , offset 0 
+[/root/kvfs/fs/kvfs.cpp : 439]- Read : BigFile  /Makefile
+[/root/kvfs/fs/kvfs.cpp : 606]- Relaease : path /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 341]- Open : /test.txt ,Flags: 32768
+[/root/kvfs/fs/kvfs.cpp : 344]- parentDir : / 
+[/root/kvfs/fs/kvfs.cpp : 432]- Read: /test.txt size : 4096 , offset 0 
+[/root/kvfs/fs/kvfs.cpp : 444]- Read : SmallFile /test.txt
+[/root/kvfs/fs/kvfs.cpp : 410]- Inline Data :path_name_len 9
+[/root/kvfs/fs/kvfs.cpp : 411]- value_size : 8 
+[/root/kvfs/fs/kvfs.cpp : 606]- Relaease : path /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 743]- OpenDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 767]- ReadDir : /
+[/root/kvfs/fs/kvfs.cpp : 775]- ReadDir: child_parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -7699684980409737984, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : test.txt
+[/root/kvfs/fs/kvfs.cpp : 806]- ReadDir: Hash_id -9025159451483525580, parent_id 8804677687338025421
+[/root/kvfs/fs/kvfs.cpp : 809]- ReadDir : file_name : Makefile
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/test.txt]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[8]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [45993040] mtime[-1442794480] ctime[1545729834]
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/Makefile]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[9502]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [0] mtime[0] ctime[1545729809]
+[/root/kvfs/fs/kvfs.cpp : 827]- ReleaseDir : /
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 341]- Open : /test.txt ,Flags: 32768
+[/root/kvfs/fs/kvfs.cpp : 344]- parentDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.gitattributes 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 432]- Read: /test.txt size : 4096 , offset 0 
+[/root/kvfs/fs/kvfs.cpp : 444]- Read : SmallFile /test.txt
+[/root/kvfs/fs/kvfs.cpp : 410]- Inline Data :path_name_len 9
+[/root/kvfs/fs/kvfs.cpp : 411]- value_size : 8 
+[/root/kvfs/fs/kvfs.cpp : 606]- Relaease : path /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/Makefile]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[9502]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [0] mtime[0] ctime[1545729809]
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/test.txt]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[8]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [45993040] mtime[-1442794480] ctime[1545729834]
+[/root/kvfs/fs/kvfs.cpp : 341]- Open : /test.txt ,Flags: 32768
+[/root/kvfs/fs/kvfs.cpp : 344]- parentDir : / 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /.gitattributes 
+[/root/kvfs/fs/kvfs.cpp : 386]- Open : No such file or directory 
+[/root/kvfs/fs/kvfs.cpp : 432]- Read: /test.txt size : 4096 , offset 0 
+[/root/kvfs/fs/kvfs.cpp : 444]- Read : SmallFile /test.txt
+[/root/kvfs/fs/kvfs.cpp : 410]- Inline Data :path_name_len 9
+[/root/kvfs/fs/kvfs.cpp : 411]- value_size : 8 
+[/root/kvfs/fs/kvfs.cpp : 606]- Relaease : path /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /Makefile 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/Makefile]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[9502]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [0] mtime[0] ctime[1545729809]
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : / 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[17407] , uid[0] , gid[0] , size[0]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [1545621934] mtime[1545729797] ctime[1545729803]
+[/root/kvfs/fs/kvfs.cpp : 377]- GetAttr : /test.txt 
+[/root/kvfs/fs/kvfs.cpp : 23]- stat of [/test.txt]:
+[/root/kvfs/fs/kvfs.cpp : 27]- inode[0] mode[33188] , uid[0] , gid[0] , size[8]
+[/root/kvfs/fs/kvfs.cpp : 31]- atime [45993040] mtime[-1442794480] ctime[1545729834]
